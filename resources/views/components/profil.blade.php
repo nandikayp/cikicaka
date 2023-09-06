@@ -5,7 +5,7 @@
   <div class="row lingkup">
       <div class="col-md-6">
         <h4 class="tagline">LivEviL</h4>
-        <h1 class=" text-judul">Welcome Tx o <span class="text-evil">Evil Geniuses</span> Website </h1>
+        <h1 class=" text-judul">Welcome To <span class="text-evil">Evil Geniuses</span> Website </h1>
         <p class="text-dekor">Evil Geniuses (often abbreviated as EG) is a professional gaming organization founded in Canada in 1999.. After an extensive application process with Riot Games, Evil Geniuses will compete in the inaugural season of the 2023 VALORANT Champions Tour (VCT) as one of ten founding organizations in the Americas League. </p>
         <a href="/produk"><button class="btn1">Get Product</button></a>
         <div class="sosmed">
