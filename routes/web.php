@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/produk', function () {
     return view('components.produk');
 });
+Route::get('/dstbr', function () {
+    return view('components.distributor');
+});

@@ -1,19 +1,34 @@
 @extends('layout.main')
 @section('content')
-<div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Border hero with cropped image and shadows</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">HALO</button>
+<div class="container">
+  <div class="row kartu">
+    <div class="col-md-4 ">
+      <div class="card" style="width: 18rem;">
+        <img src="/img/sc.webp" class="card-img-top gpr" alt="...">
+        <div class="card-body">
+          <h4 class="product-name">Gaming Chair</h4>
+          <p class="card-text">#LIVEEVIL with the Secretlab Evil Geniuses Edition and pay tribute to one of North America’s oldest esports organizations. It’s time to embrace a future of dominance with EG</p>
         </div>
       </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+    </div>
+    <div class="col-md-4 ">
+      <div class="card" style="width: 16rem;">
+        <img src="/img/js.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="product-name">Pro Jerseys</h4>
+          <p class="card-text">This jersey was made for EG players in the 2023 championship,in jerseys it means to win.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card" style="width: 16rem;">
+        <img src="/img/ms.webp  " class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="product-name">Mousepad</h4>
+          <p class="card-text">This mouse pad is made specifically for playing games with a wide size to make playing comfortable</p>
+        </div>
       </div>
     </div>
   </div>
-    
+</div>
 @endsection

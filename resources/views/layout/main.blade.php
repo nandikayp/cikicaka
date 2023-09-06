@@ -13,7 +13,10 @@
   </head>
   <body>
    @include('navbar')
-   @yield('content')
+   <div class="">
+     @yield('content')
+   </div>
+
    <script>
     feather.replace();
   </script>

@@ -13,7 +13,7 @@
             <a class="nav-link" href="/produk">Produk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Distributor</a>
+            <a class="nav-link" href="/dstbr">Distributor</a>
           </li>
           <li class="nav-item">
             <a class="nav-link">Buku Tamu</a>
