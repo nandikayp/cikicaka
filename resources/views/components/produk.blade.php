@@ -15,7 +15,7 @@
       <div class="card" style="width: 16rem;">
         <img src="/img/js.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h4 class="product-name">Pro Jerseys</h4>
+          <h4 class="product-name">Pro Jersey</h4>
           <p class="card-text">This jersey was made for EG players in the 2023 championship,in jerseys it means to win.</p>
         </div>
       </div>
