@@ -10,6 +10,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+body{
+    overflow: hidden;
+}
 
 .lingkup {
     padding-top: 7rem;
@@ -59,8 +62,8 @@
 }
 
 .poter {
-    bottom: 80px;
-    width: 60vh;
+    bottom: 0px;
+    width: 65vh;
     right: 150px;
 }
 
@@ -83,9 +86,7 @@
     clip-path: polygon(21% 0, 28% 0, 68% 100%, 59% 100%);
 }
 
-body {
-    overflow: hidden;
-}
+
 
 .sosmed {
     margin-top: 20px;
@@ -154,6 +155,7 @@ body {
 .kartu {
     display: flex;
     margin-top: 10rem;
+    margin-left: 10rem;
 }
 
 .product-name {
@@ -168,9 +170,21 @@ body {
     text-align: center;
 }
 
-.judul-produk {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
+.judul-produk{
+    font-weight: 700;
     display: flex;
     justify-content: center;
+    color: grey;
+
+}
+
+.btn-data{
+    border: none;
+    border-radius: 10px;
+}
+
+.img-ds{
+    margin-left: 120px;
+    margin-bottom: 50px;
+    border-radius: 100px;
 }

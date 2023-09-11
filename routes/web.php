@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BukuCon;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,10 @@ Route::get('/produk', function () {
 Route::get('/dstbr', function () {
     return view('components.distributor');
 });
+
+Route::get('/bukutamu',[BukuCon::class, 'index']);
+Route::get('/bukutamu/tambah',[BukuCon::class, 'tambah']);
+Route::post('/bukutamu/store',[BukuCon::class, 'store']);
+Route::delete('/bukutamu/{id}',[BukuCon::class, 'destroy']);
+Route::get('/bukutamu/edit/{id}',[BukuCon::class,'edit']);
+Route::post('/bukutamu/update',[BukuCon::class,'storeupdate']);

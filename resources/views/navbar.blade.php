@@ -16,7 +16,7 @@
             <a class="nav-link" href="/dstbr">Distributor</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Buku Tamu</a>
+            <a class="nav-link" href="/bukutamu">Buku Tamu</a>
           </li>
         </ul>
       </div>
