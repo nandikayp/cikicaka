@@ -1,6 +1,7 @@
 @extends('layout.main')
 @section('content')
 <div class="container">
+  <h1 class="judul-produk">PRODUK</h1>
   <div class="row kartu">
     <div class="col-md-4 ">
       <div class="card" style="width: 18rem;">

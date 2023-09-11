@@ -147,7 +147,7 @@ body {
     margin-right: 10px;
     font-size: 20px;
 }
-.card{
+.card {
     border: 4px solid black;
 }
 
@@ -156,7 +156,7 @@ body {
     margin-top: 10rem;
 }
 
-.product-name{
+.product-name {
     font-family: "Poppins", sans-serif;
     color: grey;
     text-align: center;
@@ -164,6 +164,13 @@ body {
     font-weight: 700;
 }
 
-.card-text{
+.card-text {
     text-align: center;
+}
+
+.judul-produk {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
